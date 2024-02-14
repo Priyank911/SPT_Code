@@ -23,7 +23,7 @@ class ExpDemo{
                catch(ArithmeticException | ArrayIndexOutOfBoundsException ae){
                 // System.out.println("Error Occured....");
 //             // System.out.println(e);
-                 System.out.println(ae.getMessage());
+                 System.out.println(ae.getMessage()); // Here we get a message of / by zero
             }
  /* Parent */        catch(Exception z){ // here you can go lower to higher ---> child -->to--->parent you cant go parent to child its show error
             System.out.println(z);
