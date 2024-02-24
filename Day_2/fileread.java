@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class filehandling {
+public class fileread {
     public static void main(String[] args) throws IOException
     {
         File f1 = new File("D:\\FIle_handling.txt");
