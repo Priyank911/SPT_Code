@@ -12,6 +12,7 @@ public class fileread {
         for(int i=1;i<=sz;i++){
             System.out.print((char)fis.read());
         }
+        fis.close();
     }
 }
 

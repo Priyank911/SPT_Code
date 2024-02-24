@@ -20,5 +20,6 @@ public class interest {
         
         double intrest = (pri*rate*time)/100;
         System.out.println("SI: " +intrest);
+        dis.close();
     }
 }
